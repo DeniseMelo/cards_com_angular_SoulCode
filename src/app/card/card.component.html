@@ -1,0 +1,22 @@
+
+<mat-card id="card" [ngStyle]="{'background-color': cor, 'color': corTexto}">
+    <mat-card-subtitle style="color: inherit;"><h4>{{ titulo }}</h4></mat-card-subtitle>
+    <mat-card-title>
+      <div id="cifrao-preco"><h3>$</h3><h1>{{ preco }}</h1></div>
+    </mat-card-title>
+  
+    <mat-card-content>
+      <mat-divider class="divider"></mat-divider>
+      <p>{{ conteudo[0] }}</p>
+      <mat-divider class="divider"></mat-divider>
+      <p>{{ conteudo[1] }}</p>
+      <mat-divider class="divider"></mat-divider>
+      <p>{{ conteudo[2] }}</p>
+      <mat-divider class="divider"></mat-divider>
+    </mat-card-content>
+    
+    <mat-card-actions>
+      <button mat-stroked-button (click)="onClickLearnMore()">LEARN MORE</button>
+    </mat-card-actions>
+  </mat-card>
+  

@@ -1,0 +1,26 @@
+#card {
+    text-align: center;
+}
+
+#cifrao-preco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    position: unset !important;
+}
+
+.mat-card {
+    font-family: unset;
+    padding: 16px 20px 32px 20px;
+}
+
+button {
+    width: 95%;
+    font-family: unset;
+    font-size: 12px;
+}
+
+
